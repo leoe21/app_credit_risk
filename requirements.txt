@@ -18,8 +18,5 @@ matplotlib==3.8.1
 # Manejo de variables de entorno
 python-dotenv==1.0.0
 
-# Opcional (para pruebas)
-pytest==7.5.0
-httpx==0.24.1
 
 mlflow
