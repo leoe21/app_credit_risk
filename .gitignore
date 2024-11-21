@@ -1,0 +1,39 @@
+# Archivos de Python
+*.pyc
+*.pyo
+__pycache__/
+
+# Entornos virtuales
+venv/
+.env
+
+# Configuración específica de IDE
+.idea/
+.vscode/
+
+# Logs y archivos temporales
+*.log
+*.sqlite3
+.DS_Store
+*.tmp
+
+# Docker
+*.pid
+*.tar
+
+# Archivos de dependencias y caché
+*.egg-info/
+*.eggs/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Archivos de salida
+*.out
+*.class
+__MACOSX/
+
+# Configuración de pruebas
+.tox/
+.pytest_cache/
+.coverage
+htmlcov/
