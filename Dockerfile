@@ -13,7 +13,7 @@ COPY . /app
 
 # 4. Instalamos las dependencias de Python
 RUN pip install --no-cache-dir --upgrade pip && \
-    pip install --no-cache-dir -r /app/requirements.txt
+    pip install --no-cache-dir -r requirements.txt
 # Aquí estamos actualizando `pip` y luego instalando las librerías listadas en `requirements.txt`. 
 # `--no-cache-dir` evita que Docker almacene archivos temporales, para ahorrar espacio.
 
